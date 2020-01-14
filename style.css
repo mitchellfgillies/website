@@ -1,0 +1,173 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+.description {
+  width: 100%;
+}
+
+
+
+
+/* Web Font Use */
+@font-face {
+    font-family: "SuisseBook";
+    src: url("fonts/SuisseIntl-Book-WebM.woff") format('woff');
+}
+
+body {
+  background-color: #fafafa;
+}
+
+h2 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "SuisseBook";
+  font-weight:normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #0f0f0f;
+  font-size: 13px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+/* link state */
+
+a {
+  color: #0f0f0f;
+  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  -o-transition:color .1s ease-out, background .5s ease-in;
+  -ms-transition:color .1s ease-out, background .5s ease-in;
+  -moz-transition:color .1s ease-out, background .5s ease-in;
+  -webkit-transition:color .1s ease-out, background .5s ease-in;
+  /* ...and now for the proper property */
+  transition:color .2s ease-out, background .5s ease-in;
+}
+a:hover { color: #fafafa; background: #0f0f0f; }
+
+
+/* div code */
+div {
+ 	height: 30px;
+ 	width: auto;
+ 	margin-left: 0px;
+	margin-right: 0px;
+}
+/* images */
+img {
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  position: fixed;
+  bottom: 15px;
+
+
+}
