@@ -112,8 +112,8 @@ input, select {
 
 /* Web Font Use */
 @font-face {
-    font-family: "SuisseBook";
-    src: url("fonts/SuisseIntl-Book-WebM.woff") format('woff');
+    font-family: "SuperfieldMono";
+    src: url("fonts/SuperfieldMitchell-Regular (1).woff") format('woff');
 }
 
 body {
